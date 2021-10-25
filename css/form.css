@@ -1,0 +1,29 @@
+.form {
+	position: relative;
+}
+
+.form input {
+	border: none;
+	background: transparent;
+	outline: none;
+	inline-size: 1rem;
+	transition: inline-size 0.4s;
+	-webkit-transition: inline-size 0.4s;
+	-moz-transition: inline-size 0.4s;
+	-ms-transition: inline-size 0.4s;
+	-o-transition: inline-size 0.4s;
+	color: var(--white);
+}
+
+.form i {
+	color: var(--white);
+	position: absolute;
+	left: 0;
+}
+
+.form:hover input {
+	border-bottom: 2px solid var(--white);
+	inline-size: 15.625rem;
+	padding-inline-start: 24px;
+	/* background: rgba(0, 0, 0, 0.5); */
+}

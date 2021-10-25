@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'Futura';
+	src: url('../assets/fonts/futura-medium.ttf');
+	font-weight: 500;
+	font-style: normal;
+}
+
+:root {
+	--fontBase: 'Bodoni Moda', sans-serif;
+	--fontAux: 'Futura', sans-serif;
+	--white: #ffffff;
+	--headline1: 500 9rem/7.065rem var(--fontBase);
+	--link: 500 1rem/1.3281rem var(--fontAux);
+}
+
+.body {
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 100%, transparent),
+		url('../assets/images/background.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-block-size: 100vh;
+	margin: 0;
+}

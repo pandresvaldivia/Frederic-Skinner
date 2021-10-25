@@ -1,0 +1,40 @@
+.navbar-links {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	gap: 2.5rem;
+	/* border: 1px solid red; */
+}
+
+.navbar-links a {
+	color: var(--white);
+	text-decoration: none;
+	font: var(--link);
+	transition: font-size 0.3s;
+	-webkit-transition: font-size 0.3s;
+	-moz-transition: font-size 0.3s;
+	-ms-transition: font-size 0.3s;
+	-o-transition: font-size 0.3s;
+}
+
+.navbar-links a::after {
+	content: '';
+	display: block;
+	block-size: 2px;
+	inline-size: 0;
+	background: var(--white);
+	transition: inline-size 0.3s;
+	-webkit-transition: inline-size 0.3s;
+	-moz-transition: inline-size 0.3s;
+	-ms-transition: inline-size 0.3s;
+	-o-transition: inline-size 0.3s;
+}
+
+.navbar-links a:hover {
+	font-size: 1.0625rem;
+}
+
+.navbar-links a:hover::after {
+	inline-size: 100%;
+}
