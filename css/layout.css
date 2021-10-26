@@ -1,7 +1,8 @@
 .layout {
 	display: flex;
 	min-inline-size: 75rem;
-	min-block-size: 100vh;
+	min-block-size: 56.25rem;
+	block-size: 100vh;
 }
 
 .layout-main {
