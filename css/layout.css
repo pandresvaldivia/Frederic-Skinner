@@ -1,0 +1,13 @@
+.layout {
+	display: flex;
+	min-inline-size: 75rem;
+	min-block-size: 100vh;
+}
+
+.layout-main {
+	flex: 1;
+}
+
+.layout-sidebar {
+	inline-size: 6.75rem;
+}

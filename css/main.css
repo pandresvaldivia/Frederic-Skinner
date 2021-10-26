@@ -9,15 +9,21 @@
 	--fontBase: 'Bodoni Moda', sans-serif;
 	--fontAux: 'Futura', sans-serif;
 	--white: #ffffff;
+	--blue: #2c74ff;
 	--headline1: 500 9rem/7.065rem var(--fontBase);
-	--link: 500 1rem/1.3281rem var(--fontAux);
+	--normal: 500 1rem/1.3281rem var(--fontAux);
+	--link: 500 0.875rem/1.1619rem var(--fontAux);
 }
 
 .body {
 	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 100%, transparent),
 		url('../assets/images/background.png');
 	background-size: cover;
-	background-repeat: no-repeat;
-	min-block-size: 100vh;
 	margin: 0;
+	font: var(--normal);
+}
+
+.wrapper {
+	padding-inline-start: 180px;
+	padding-block-start: 7.75rem;
 }

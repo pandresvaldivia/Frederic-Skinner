@@ -4,7 +4,6 @@
 	list-style: none;
 	display: flex;
 	gap: 2.5rem;
-	/* border: 1px solid red; */
 }
 
 .navbar-links a {
@@ -32,7 +31,7 @@
 }
 
 .navbar-links a:hover {
-	font-size: 1.0625rem;
+	font-size: 0.9375rem;
 }
 
 .navbar-links a:hover::after {
