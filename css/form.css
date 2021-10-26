@@ -21,9 +21,9 @@
 	left: 0;
 }
 
-.form:hover input {
+.form:hover input,
+.form:focus-within input {
 	border-bottom: 2px solid var(--white);
 	inline-size: 15.625rem;
 	padding-inline-start: 24px;
-	/* background: rgba(0, 0, 0, 0.5); */
 }
