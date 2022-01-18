@@ -1,4 +1,12 @@
 @font-face {
+	font-family: 'Bodoni Moda';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../assets/fonts/bodoni-moda-v7-latin-500.woff2') format('woff2'),
+		url('../assets/fonts/bodoni-moda-v7-latin-500.woff') format('woff');
+}
+
+@font-face {
 	font-family: 'Futura';
 	src: url('../assets/fonts/futura-medium.ttf');
 	font-weight: 500;
